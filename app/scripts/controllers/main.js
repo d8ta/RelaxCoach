@@ -9,9 +9,10 @@
  */
 angular.module('relaxCoachApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+	$scope.images = [
+
+		{url: '/images/AppleWatch.png'},
+	];
+
   });
