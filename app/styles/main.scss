@@ -46,14 +46,16 @@ button {
   left: 250px;
  }
 
- canvas {
-  background-color: grey;
+ #measurement {
+  background-color: white;
   position: absolute;
   z-index: -1;
-  width: 315px;
-  height: 390px;
-  top: 128px;
-  left: 125px;
+  width: 175px;
+  height: 175px;
+  top: 200px;
+  left: 190px;
+  border-radius: 100%;
+  border: 5px solid red;
  }
 // end
 
