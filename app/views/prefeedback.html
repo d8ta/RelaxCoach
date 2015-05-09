@@ -1,4 +1,10 @@
-<div>
-	<input type="text" placeholder="pulse value 1" />
-  	<a ng-href="#/measurement"><button>START</button></a>
+<div ng-controller="MainCtrl">
+
+	<div>	
+		<input type="text" ng-model="pulse1">
+  		<a ng-href="#/measurement"><button>next</button></a>
+	</div>
+
+	<h3>Test: {{ pulse1 }}</h3>
+
 </div>

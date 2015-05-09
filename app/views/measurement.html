@@ -1,8 +1,10 @@
-  <div ng-controller="MainCtrl">
-    <img id="applewatch" ng-repeat="img in images" src="{{img.url}}" alt="applewatch">
+<div ng-controller="MainCtrl">
+	
+	<img id="applewatch" ng-repeat="img in images" src="{{img.url}}" alt="applewatch">
 
-	<div id="measurement">
-		
+	<div id="measurement" ng-model="pulse1">
+		<h3>{{ pulse1 }}</h3>
 	</div>
 
-  </div>
+</div>
+

@@ -15,4 +15,5 @@ angular.module('relaxCoachApp')
 		{url: '/images/AppleWatch.png'},
 	];
 
+	$scope.pulse1 = 333;
   });
