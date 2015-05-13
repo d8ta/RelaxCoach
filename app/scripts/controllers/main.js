@@ -9,12 +9,6 @@
  */
 angular.module('relaxCoachApp')
   .controller('MainCtrl', function ($scope) {
-<<<<<<< HEAD
-
-
-=======
-	
->>>>>>> origin/transitions
 	$scope.pulse1 = 333;
-	
+
   });
