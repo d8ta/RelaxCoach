@@ -1,25 +1,28 @@
 // custom scss
 
-#applewatch {
- position: absolute;
+
+.main-container{
+
+  background: white url("../images/AppleWatch.png") no-repeat;
+  width: 550px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+
+  .main-view{
+    background: #ffbcc1;
+    width: 312px;
+    height: 390px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
 }
 
-button {
-  position: absolute;
-  top: 300px;
-  left: 250px;
-  background-color: grey;
-  color: white;
-}
 
 .instructions {
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    top: 200px;
-    left: 150px;
-    text-align: justify;
-    text-decoration: none;
 
     a:link {
       text-decoration: none;
@@ -38,32 +41,6 @@ button {
     h3 {
       text-align: center;
     }
- }
-
- input {
-  position: absolute;
-  top: 250px;
-  left: 250px;
- }
-
- #measurement {
-  background-color: white;
-  position: absolute;
-  z-index: -1;
-  width: 175px;
-  height: 175px;
-  top: 200px;
-  left: 190px;
-  border-radius: 100%;
-  border: 5px solid red;
-
-  h3 {
-    position: absolute;
-    left: 70px;
-    top: 50px;
-    font-size: 180%;   
-  }
-
  }
 
 // end

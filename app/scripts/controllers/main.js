@@ -10,10 +10,6 @@
 angular.module('relaxCoachApp')
   .controller('MainCtrl', function ($scope) {
 
-	$scope.images = [
-
-		{url: '/images/AppleWatch.png'},
-	];
 
 	$scope.pulse1 = 333;
   });
