@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c18dc0c-f751-4af8-846a-fa39891e88a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/inputAfter.html" afterPath="$PROJECT_DIR$/app/views/inputAfter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/inputBefore.html" afterPath="$PROJECT_DIR$/app/views/inputBefore.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/measurement.html" afterPath="$PROJECT_DIR$/app/views/measurement.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/postfeedback.html" afterPath="$PROJECT_DIR$/app/views/postfeedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/prefeedback.html" afterPath="$PROJECT_DIR$/app/views/prefeedback.html" />
     </list>
     <ignored path="RelaxCoach.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,6 +58,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="postfeedback.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/postfeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.72794116" vertical-offset="0" max-vertical-offset="960">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="measurement.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/measurement.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="0" column="48" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="inputAfter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inputAfter.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,10 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inputBefore.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prefeedback.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/prefeedback.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
+              <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inputBefore.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/inputBefore.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11029412" vertical-offset="0" max-vertical-offset="680">
+            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
@@ -91,17 +122,17 @@
         <option value="$PROJECT_DIR$/app/scripts/vendor/wijmo.js" />
         <option value="$PROJECT_DIR$/app/styles/_wijmo.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/views/prefeedback.html" />
         <option value="$PROJECT_DIR$/app/views/instructions.html" />
         <option value="$PROJECT_DIR$/app/scripts/services/mainservice.js" />
-        <option value="$PROJECT_DIR$/app/views/postfeedback.html" />
-        <option value="$PROJECT_DIR$/app/views/measurement.html" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/views/training.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/views/inputAfter.html" />
         <option value="$PROJECT_DIR$/app/views/inputBefore.html" />
+        <option value="$PROJECT_DIR$/app/views/measurement.html" />
+        <option value="$PROJECT_DIR$/app/views/prefeedback.html" />
+        <option value="$PROJECT_DIR$/app/views/postfeedback.html" />
       </list>
     </option>
   </component>
@@ -691,22 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/prefeedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/measurement.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="960">
@@ -746,18 +761,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/postfeedback.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7058824" vertical-offset="0" max-vertical-offset="960">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1035">
           <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/inputBefore.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="180">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/measurement.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="150">
+          <caret line="0" column="48" selection-start-line="0" selection-start-column="48" selection-end-line="0" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/prefeedback.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="0" column="45" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -770,10 +801,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/inputBefore.html">
+    <entry file="file://$PROJECT_DIR$/app/views/postfeedback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11029412" vertical-offset="0" max-vertical-offset="680">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.72794116" vertical-offset="0" max-vertical-offset="960">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding />
         </state>
       </provider>
