@@ -9,6 +9,9 @@
  */
 angular.module('relaxCoachApp')
   .controller('MainCtrl', function ($scope) {
-	$scope.pulse1 = 333;
+
+	$scope.pulse1 = {
+
+  };
 
   });
