@@ -32,13 +32,14 @@ angular.module('relaxCoachApp')
 
 
     $scope.options = {
-        width: 150,
+        width: 250,
+        height: 250,
         fgColor: "red",
         skin: "tron",
         thickness: .3,
-        displayPrevious: false,
+        displayPrevious: true,
         readOnly: true,
-        displayInput: false
+        displayInput: false,
     };
 
 
