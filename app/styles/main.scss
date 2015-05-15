@@ -10,6 +10,13 @@
 }
 
 
+.image-training{
+  transition: all 1s ease;
+  width: 100px;
+
+  &.inflate{ width: 200px; }
+}
+
 // custom scss
 #heartrate {
   position: absolute;

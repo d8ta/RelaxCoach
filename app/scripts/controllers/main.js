@@ -16,7 +16,8 @@ angular.module('relaxCoachApp')
     $scope.pulse2 = DataSvc.pulse2;
 
     $scope.config = {
-      tappeable: true
+      tappeable: true,
+      inflating: false
     };
 
     $scope.onTimeout = function(){
@@ -33,6 +34,10 @@ angular.module('relaxCoachApp')
     if($location.path().indexOf('measurement') >= 0){
       $scope.onTimeout();
       console.log('INNNNNN');
+    }
+
+    if($location.path().indexOf('training') >= 0){
+      $timeout(function(){ $scope.config.inflating = true }, 2000);
     }
 
 
