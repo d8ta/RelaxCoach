@@ -1,4 +1,4 @@
 <div class="wrapper" >
-  <h3 id="heartrate">{{ pulse1.value }}</h3>
+  	<h3 id="heartrate" ng-show="config.tappeable">{{ pulse1.value }}</h3>
 	<knob knob-data="value" knob-options="options"></knob>
 </div>
