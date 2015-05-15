@@ -18,7 +18,9 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'wijmo'
+    'wijmo',
+    'ui.knob'
+
   ])
   .config(function ($routeProvider) {
     $routeProvider
