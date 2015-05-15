@@ -17,7 +17,8 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'wijmo'
   ])
   .config(function ($routeProvider) {
     $routeProvider
@@ -33,6 +34,14 @@ angular
       })
       .when('/measurement', {
         templateUrl: 'views/measurement.html',
+        controller: 'MainCtrl'
+      })
+      .when('/input-before', {
+        templateUrl: 'views/inputBefore.html',
+        controller: 'MainCtrl'
+      })
+      .when('/input-after', {
+        templateUrl: 'views/inputAfter.html',
         controller: 'MainCtrl'
       })
       .otherwise({
