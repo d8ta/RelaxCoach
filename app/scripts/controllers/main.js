@@ -9,25 +9,36 @@
  */
 angular.module('relaxCoachApp')
 
-  .controller('MainCtrl', function ($scope, DataSvc, $timeout, $log) {
+  .controller('MainCtrl', function ($scope, $timeout, $location, DataSvc) {
 
 	  $scope.value = 0;
+    $scope.pulse1 = DataSvc.pulse1;
+    $scope.pulse2 = DataSvc.pulse2;
+
+    $scope.config = {
+      tappeable: true
+    };
 
     $scope.onTimeout = function(){
         $scope.value ++;
         if ($scope.value < 100) {
-        	$timeout($scope.onTimeout,100);
+        	$timeout($scope.onTimeout, 100);
+          $scope.config.tappeable = false;
         }
-        else {
-			$scope.pulse1 = DataSvc.pulse1;
+        else { // Measurement finished
+          $scope.config.tappeable = true;
         }
+    };
 
-
+    if($location.path().indexOf('measurement') >= 0){
+      $scope.onTimeout();
+      console.log('INNNNNN');
     }
-    $scope.onTimeout();
+
 
     $scope.GoTo = function(view){
-      $location.path(view);
+      if(config.tappeable)
+        $location.path(view);
     };
 
 

@@ -32,6 +32,10 @@ angular
         templateUrl: 'views/prefeedback.html',
         controller: 'MainCtrl'
       })
+      .when('/postfeedback', {
+        templateUrl: 'views/postfeedback.html',
+        controller: 'MainCtrl'
+      })
       .when('/measurement', {
         templateUrl: 'views/measurement.html',
         controller: 'MainCtrl'
