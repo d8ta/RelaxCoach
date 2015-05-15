@@ -8,9 +8,10 @@
  * Controller of the relaxCoachApp
  */
 angular.module('relaxCoachApp')
+
   .controller('MainCtrl', function ($scope, DataSvc, $timeout, $log) {
 
-	$scope.value = 0;
+	  $scope.value = 0;
 
     $scope.onTimeout = function(){
         $scope.value ++;
@@ -25,7 +26,11 @@ angular.module('relaxCoachApp')
     }
     $scope.onTimeout();
 
-    
+    $scope.GoTo = function(view){
+      $location.path(view);
+    };
+
+
     $scope.options = {
         width: 150,
         fgColor: "red",
@@ -34,7 +39,8 @@ angular.module('relaxCoachApp')
         displayPrevious: false,
         readOnly: true,
         displayInput: false
-    }
+    };
+
 
 
   });

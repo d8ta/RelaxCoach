@@ -25,10 +25,8 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/start.html'
-      })
-      .when('/instructions', {
-        templateUrl: 'views/instructions.html'
+        templateUrl: 'views/start.html',
+        controller: 'MainCtrl'
       })
       .when('/prefeedback', {
         templateUrl: 'views/prefeedback.html',
