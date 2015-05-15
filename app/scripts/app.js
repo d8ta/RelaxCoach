@@ -48,6 +48,10 @@ angular
         templateUrl: 'views/inputAfter.html',
         controller: 'MainCtrl'
       })
+      .when('/training', {
+        templateUrl: 'views/training.html',
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

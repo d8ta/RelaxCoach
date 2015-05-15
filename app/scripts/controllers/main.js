@@ -37,7 +37,7 @@ angular.module('relaxCoachApp')
 
 
     $scope.GoTo = function(view){
-      if(config.tappeable)
+      if($scope.config.tappeable)
         $location.path(view);
     };
 
