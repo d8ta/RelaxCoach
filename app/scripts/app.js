@@ -22,12 +22,10 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/start.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/start.html'
       })
       .when('/instructions', {
-        templateUrl: 'views/instructions.html',
-        controller: 'MainCtrl'
+        templateUrl: 'views/instructions.html'
       })
       .when('/prefeedback', {
         templateUrl: 'views/prefeedback.html',

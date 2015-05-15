@@ -8,10 +8,7 @@
  * Controller of the relaxCoachApp
  */
 angular.module('relaxCoachApp')
-  .controller('MainCtrl', function ($scope) {
-
-	$scope.pulse1 = {
-
-  };
+  .controller('MainCtrl', function ($scope, DataSvc) {
+	$scope.pulse1 = DataSvc.pulse1;
 
   });
