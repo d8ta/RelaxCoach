@@ -8,8 +8,11 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
 
+<body ng-app="relaxCoachApp">
 
-
+<div class="main-container">
+  <div class="main-view" ng-view></div>
+</div>
 
 <!-- Bower components -->
     <script src="bower_components/angular/angular.js"></script>
@@ -25,5 +28,6 @@
 
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/services/mainservice.js"></script>
 </body>
 </html>
