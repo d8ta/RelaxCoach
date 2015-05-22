@@ -19,7 +19,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'wijmo',
-    'ui.knob'
+    'ui.knob',
+    'timer'
 
   ])
   .config(function ($routeProvider) {

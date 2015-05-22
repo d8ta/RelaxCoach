@@ -32,6 +32,9 @@ module.exports = function(config) {
       'bower_components/jquery-ui/jquery-ui.js',
       'bower_components/jquery-knob/js/jquery.knob.js',
       'bower_components/angular-knob/src/angular-knob.js',
+      'bower_components/momentjs/moment.js',
+      'bower_components/humanize-duration/humanize-duration.js',
+      'bower_components/angular-timer/dist/angular-timer.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       'app/scripts/**/*.js',

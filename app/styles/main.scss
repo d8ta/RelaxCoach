@@ -14,7 +14,6 @@
   position: relative;
   width: 100%;
   height: 250px;
-  margin-top: -22px;
 }
 
 .image-training-wrap > img{
@@ -59,12 +58,30 @@ div{
   box-sizing: border-box;
 }
 
+
+.text-bottom{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 5px;
+  left: 0;
+}
+
+
+.my-knob{
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
 .subtitle{
   margin-bottom: 40px;
 }
 
-.wrapper{
+.my-wrapper{
   position: absolute;
+  text-align: center;
   width: 100%;
   height : 100%;
   top: 0; left: 0;
